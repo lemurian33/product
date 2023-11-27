@@ -31,11 +31,11 @@ const footerContent: FooterContent = {
         {
           href: "/pricing",
           label: "Pack Starter",
+          badge: "Promo",
         },
         {
           href: "/pricing",
           label: "Pack Elite Premium",
-          badge: "New",
         },
         {
           href: "/princing",
