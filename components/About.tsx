@@ -2,7 +2,7 @@
 import React, { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion, useScroll, useTransform, Variants } from "framer-motion";
+import { motion, useScroll, useTransform} from "framer-motion";
 
 interface AboutProps {
   className: string;
