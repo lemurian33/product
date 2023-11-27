@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-[#f8f3f3] overflow-x-hidden w-full`}>
         <Navigation />
         {children}
-        <Footer className="bg-white py-16 md:py-24"/>
+        <Footer className="bg-[#f8f3f3] py-16 md:py-24"/>
       </body>
     </html>
   )
