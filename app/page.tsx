@@ -1,6 +1,7 @@
 import Image from 'next/image'
-import Hero from "../components/Hero"
 import About from "../components/About"
+import Hero from "../components/Hero"
+import Pricing from "../components/Pricing"
 import Testimonial from "../components/Testimonial"
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
       <Hero className="pt-32 pb-0 lg-pb:10" />
       {/* <Application /> */}
       <About className="py-16 lg:py-32 overflow-hidden"/>
-      {/* <Pricing className="py-16 lg:py-32" /> */}
+      <Pricing className="py-16 lg:py-32" />
       {/* <Team/> */}
       <Testimonial/>
       {/* <RecentBlog className="pt-14 pb-15 lg:pb-32"/> */}

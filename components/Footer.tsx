@@ -137,8 +137,8 @@ const Footer: React.FC<{ className: string }> = ({ className }) => (
                             <span>{link.label}</span>
                             <span
                               className="py-0.5 px-2 rounded-full bg-orange-100
-                                  border border-orange-600 text-[10px] text-orange-600
-                                  font-semibold"
+                                border border-orange-600 text-[10px] text-orange-600
+                                font-semibold"
                             >
                               {link.badge}
                             </span>
