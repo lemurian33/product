@@ -68,7 +68,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
     <section className={`${className} bg-white`} ref={ref}>
       <div className="container px-4 mx-auto ">
         <div className="text-center lg:max-w-xl mx-auto mb-20 lg:mb-22 relative z-[5]">
-          {/* About - Main - Subtitle */}
+          {/* About - Main - SubTitle */}
           {aboutContent.heading.subTitle && (
             <motion.span
             initial={{ opacity:0 , y: 20 }}
@@ -81,8 +81,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
               }
             }}
             viewport={ { once: true}}
-              className="uppercase tracking-[3px] text-[12.5px] mb-2 inline-block text-gray-500"
-            >
+            className="uppercase tracking-[3px] text-[12.5px] mb-2 inline-block text-gray-500" >
               {aboutContent.heading.subTitle}
             </motion.span>
           )}

@@ -5,6 +5,7 @@ import Pricing from "../components/Pricing"
 import Team from "../components/Team"
 import Testimonial from "../components/Testimonial"
 import RecentBlog from "../components/RecentBlog"
+import Subscribe from "../components/Subscribe"
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <Team className="py-16 lg:py-32 overflow-hidden" />
       <Testimonial/>
       <RecentBlog className="pt-14 pb-15 lg:pb-32"/>
-      {/* <Subscribe className="py-16 pt-64 -mt-48 lg:py-32 bg-orange-300"/> */}
+      <Subscribe className="py-16 pt-64 -mt-48 lg:py-32"/>
     </>
   )
 
