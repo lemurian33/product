@@ -65,8 +65,8 @@ const About: React.FC<AboutProps> = ({ className }) => {
   );
 
   return (
-    <section className={`${className}`} ref={ref}>
-      <div className="container px-4 mx-auto">
+    <section className={`${className} bg-white`} ref={ref}>
+      <div className="container px-4 mx-auto ">
         <div className="text-center lg:max-w-xl mx-auto mb-20 lg:mb-22 relative z-[5]">
           {/* About - Main - Subtitle */}
           {aboutContent.heading.subTitle && (
