@@ -47,22 +47,22 @@ export default function Navigation() {
     width: wWidth,
   })
 
-  useEffect(() => {
-    function handleResize() {
-      setDimensions({
-        height: window.innerHeight,
-        width: window.innerWidth,
-      })
-      if(dimensions.width > 768 && open) {
-        setOpen(false)
-      }
-    }
-    window.addEventListener('resize', handleResize)
+  // useEffect(() => {
+  //   function handleResize() {
+  //     setDimensions({
+  //       height: window.innerHeight,
+  //       width: window.innerWidth,
+  //     })
+  //     if(dimensions.width > 768 && open) {
+  //       setOpen(false)
+  //     }
+  //   }
+  //   window.addEventListener('resize', handleResize)
 
-    return(_: any) => {
-      window.removeEventListener('resize', handleResize)
-    }
-  })
+  //   return(_) => {
+  //     window.removeEventListener('resize', handleResize)
+  //   }
+  // })
 
 
   return (
